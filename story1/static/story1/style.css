@@ -1,0 +1,30 @@
+body {
+    background-color: whitesmoke;
+    color: #011940;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+img {
+    margin: 5px;
+    max-width: 350px;
+    max-height: 470px;
+}
+
+.column_pics {
+    float: left;
+    width: 30%
+}
+
+#one {
+    width: 360px;
+    height: 480px;
+    background-color: #011940;
+}
+
+.column {
+    float: left;
+    width: 70%;
+}
+

@@ -1,0 +1,240 @@
+body {
+    
+}
+
+h1 {
+    left: 205px;
+}
+
+a {
+    color: white;
+}
+
+.abc {
+    margin: auto;
+    text-align: center;
+}
+
+td {
+    align: center;
+}
+
+.nav {
+    position: -webkit-sticky;
+    position: sticky;
+    width: 100%;
+}
+
+.name {
+    font-size: 3vw;
+    margin-left: 20px;
+}
+
+.identity {
+    font-size: 2vw;
+    margin-left: 20px;
+}
+
+.profile{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+    background-color: #C4C4C4;
+    max-width: 99%;
+}
+
+.prof-pic {
+    border-radius: 50%;
+    margin: 10px;
+    width: 193px;
+    max-height: 193px;
+}
+
+.prof-col {
+    max-width: 20%;
+}
+
+.bawah {
+    margin-left: 10px;
+    margin-right: 10px;
+    max-width: 99%;
+}
+
+#kiri {
+    background: url("icons/int.jpg");
+    margin-right: 10px;
+    min-height: 300px;
+}
+
+#tengah {
+    background: url("icons/bm.jpg");
+    margin-right: 10px;
+    min-height: 300px;
+}
+
+#kanan {
+    background: url("icons/cr.jpg");
+    min-height: 300px;
+}
+
+.depan {
+    min-height: 442px;
+    margin-bottom: 10px;
+}
+
+.bottom-right {
+    font-size: 48px;
+    position: absolute;
+    color: white;
+    bottom: 8px;
+    right: 16px;
+}
+
+.wrapper::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.two {
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #C4C4C4;
+    color: black;
+    text-align: center;
+}
+
+.contact {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.foto {
+    width: 261px;
+    height: 100%;
+    margin: 0;
+}
+
+.riding {
+    background: url("icons/riding.jpg");
+}
+
+.traveling {
+    background: url("icons/traveling.jpg");
+}
+
+.eating {
+    background: url("icons/eating.jpg");
+}
+
+.song {
+    background: url("icons/song.jpg");
+}
+
+.my-row {
+    background-color: #C4C4C4;
+    margin-bottom: 20px;
+    height: 155px;
+}
+
+.judul {
+    font-size: 3vh;
+    font-weight: bold;
+}
+
+.boutme {
+    background-color: #C4C4C4;
+}
+
+.row-kiri {
+    float: left;
+    width: 50%;
+    height: 300px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.row-kanan {
+    margin-left: 10px;
+    min-height: 620px;
+}
+
+.education {
+    background: url("icons/edu.jpg");
+    color: white;
+}
+
+.skills {
+    background: url("icons/skill.jpg");
+    color: white;
+}
+
+.bout-me {
+    background: url("icons/boutme.jpg");
+    color: white;
+}
+
+.row-tiga {
+    height: fit-content;
+    background: none;
+}
+
+.list {
+    font-size: 2vw;
+}
+
+.credits {
+    height: fit-content;
+    margin: 10px;
+    font-size: 2vw;
+}
+
+.aaa {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.bbb {
+flex: 25%;
+max-width: 25%;
+padding: 0 4px;
+}
+
+.bbb img {
+margin-top: 8px;
+vertical-align: middle;
+width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+.bbb {
+    flex: 50%;
+    max-width: 50%;
+}
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+.bbb {
+    flex: 100%;
+    max-width: 100%;
+}
+}
+
+#matkul {
+    color: black;
+}

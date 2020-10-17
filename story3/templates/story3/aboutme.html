@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    {% extends 'story3/base.html' %}
+    {% load static %}
+    <head>
+         <!-- Required meta tags -->
+         <meta charset="utf-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
+         <!-- Bootstrap CSS -->
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+ 
+         <link rel="stylesheet" href="{% static 'story3/style.css' %}"/>
+         <title>About Me</title>
+    </head>
+
+    <body>
+        {% block content %}
+        <div class="col-sm">
+            <div class="d-flex flex-row my-row row-kiri education">
+                <div class="d-flex flex-column row-tiga">
+                    <div class="p-2 judul">My Education</div>
+
+                    <div class="p-2 list">
+                        <ul>
+                            <li>SD Kwitang 8 PSKD</li>
+                            <li>SMP Negeri 13 Depok</li>
+                            <li>SMA Negeri 9 Depok</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="d-flex flex-row my-row row-kiri skills">
+                <div class="d-flex flex-column row-tiga">
+                    <div class="p-2 judul">My Skills</div>
+
+                    <div class="p-2 list">
+                        <ul>
+                            <li>Python</li>
+                            <li>Java</li>
+                            <li>Public speaking</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm">
+            <div class="d-flex flex-row my-row row-kanan bout-me">
+                <div class="d-flex flex-column row-tiga">
+                    <div class="p-2 judul">About Me</div>
+
+                    <div class="p-2 list">
+                        I was born in Depok and live in Depok since i was born. My MBTI is unique, 
+                        sometimes it’s INFJ and sometimes it’s ENFJ. I am Computer Science student at University of Indonesia 
+                        and I am Adkesma BEM UI staff.
+                    </div>
+
+                    <div class="p-2 list">
+                        I want to be a Future data scientist.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {% endblock %}
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    </body>
+</html>

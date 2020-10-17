@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    {% load static %}
+    <head> 
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="{% static 'story3/style.css'%}">
+    </head>
+
+    <body>
+        {% block content %}
+        {% endblock %}
+        <div class="footer">
+            <table>
+                <tr>
+                    <td colspan="3">Find me at:</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="contact">
+                            <a href="https://www.instagram.com/james_frederix/">
+                                <img class="contact" src="{% static 'story3/icons/ig.jpg' %}"/>
+                            </a>
+                        </div>
+                    </td>
+
+                    <td>
+                        <div class="contact">
+                            <a href="https://www.twitter.com/james_frederix/">
+                                <img class="contact" src="{% static 'story3/icons/twt.jpg' %}"/>
+                            </a>
+                        </div>
+                    </td>
+
+                    <td>
+                        <div class="contact">
+                            <a href="https://id.linkedin.com/in/james-frederix-rolianto-bb1100193">
+                                <img class="contact" src="{% static 'story3/icons/linkedin.jpg' %}"/>
+                            </a>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

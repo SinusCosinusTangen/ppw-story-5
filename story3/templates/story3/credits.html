@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    {% extends 'story3/base.html' %}
+    {% load static %}
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+ 
+        <link rel="stylesheet" href="{% static 'story3/style.css' %}"/>
+        <title>Credits</title>
+    </head>
+
+    <body>
+        {% block content %}
+        <div class="d-flex flex-column">
+            <div class="d-flex flex-row my-row credits">
+                <div class="d-flex flex-column">
+                    <div class="p-2">Interest photos by: Victoria Borodinova - Pexels </div>
+                </div>
+            </div>
+
+            <div class="d-flex flex-row my-row credits">
+                <div class="d-flex flex-column">
+                    <div class="p-2">About me photos by: Axel Chistol - Pexels.</div>
+                </div>
+            </div>
+
+            <div class="d-flex flex-row my-row credits">
+                <div class="d-flex flex-column">
+                    <div class="p-2">Credit photos by: Alex Andrews - Pexels</div>
+                </div>
+            </div>
+
+            <div class="d-flex flex-row my-row credits">
+                <div class="d-flex flex-column">
+                    <div class="p-2">Riding photos by: Nathan Salt - Pexels</div>
+                </div>
+            </div>
+
+            <div class="d-flex flex-row my-row credits">
+                <div class="d-flex flex-column">
+                    <div class="p-2">Traveling photos by: C. Cagnin - Pexels</div>
+                </div>
+            </div>
+
+            <div class="d-flex flex-row my-row credits">
+                <div class="d-flex flex-column">
+                    <div class="p-2">Eating photos by: Idina Risk - Pexels</div>
+                </div>
+            </div>
+
+            <div class="d-flex flex-row my-row credits">
+                <div class="d-flex flex-column">
+                    <div class="p-2">My Education photos by: Dids - Pexels</div>
+                </div>
+            </div>
+
+            <div class="d-flex flex-row my-row credits">
+                <div class="d-flex flex-column">
+                    <div class="p-2">My Skills photos by: Chevanon Photography - Pexels</div>
+                </div>
+            </div>
+
+            <div class="d-flex flex-row my-row credits">
+                <div class="d-flex flex-column">
+                    <div class="p-2">About Me photos by: Alex Chistol - Pexels</div>
+                </div>
+            </div>
+        </div>
+
+        {% endblock %}
+    </body>
+</html>
